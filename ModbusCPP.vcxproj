@@ -157,20 +157,14 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Modbus.cpp" />
     <ClCompile Include="src\Modbus\Base\ModbusBase.cpp" />
-    <ClCompile Include="Source.cpp" />
     <ClCompile Include="src\Modbus\Specialized\Master\ModbusMaster.cpp" />
     <ClCompile Include="src\Modbus\Specialized\Slave\ModbusSlave.cpp" />
     <ClCompile Include="src\SettingsData\Config\ModbusConfig.cpp" />
     <ClCompile Include="src\TransferedData\ModbusData.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DeviceInfo.hpp" />
-    <ClInclude Include="Enums.hpp" />
-    <ClInclude Include="Modbus.hpp" />
     <ClInclude Include="src\Modbus\Base\ModbusBase.hpp" />
-    <ClInclude Include="ModbusStruct.hpp" />
     <ClInclude Include="src\Modbus\Specialized\Master\ModbusMaster.hpp" />
     <ClInclude Include="src\Modbus\Specialized\Slave\ModbusSlave.hpp" />
     <ClInclude Include="src\SettingsData\Config\ModbusConfig.hpp" />
